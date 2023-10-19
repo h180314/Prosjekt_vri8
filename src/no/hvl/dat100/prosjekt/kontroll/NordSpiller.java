@@ -19,6 +19,10 @@ public class NordSpiller extends Spiller {
 	public NordSpiller(Spillere spiller) {
 		super(spiller);
 	}
+	
+	public NordSpiller() {
+		super();
+	}
 
 	@Override
 	public Handling nesteHandling(Kort topp) {

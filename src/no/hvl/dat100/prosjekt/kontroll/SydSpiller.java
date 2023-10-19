@@ -23,6 +23,9 @@ public class SydSpiller extends Spiller {
 	public SydSpiller(Spillere spiller) {
 		super(spiller);
 	}
+	public SydSpiller() {
+		super();
+	}
 
 	/**
 	 * Metode for å implementere strategi. Strategien er å spille det første
